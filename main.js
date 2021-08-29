@@ -14,7 +14,8 @@ function sum(a, b) {
   return result;
 }
 
-btn.addEventListener(click, () => {
+btn.addEventListener("click", () => {
   const sumResult = sum(number1, number2);
+  console.log(sumResult);
   total.textContent = sumResult;
 });
