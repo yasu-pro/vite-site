@@ -10,7 +10,7 @@ const total = document.getElementById("js-total");
 const btn = document.getElementById("js-btn");
 
 function sum(a, b) {
-  const result = a + b;
+  const result = Number(a + b);
   return result;
 }
 
